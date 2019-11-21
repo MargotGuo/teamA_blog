@@ -17,6 +17,7 @@
   height: 200px;
   padding: 50px;
   margin-left: 60px;
+  text-align: left;
 }
 a {
   text-decoration: none;
@@ -24,5 +25,5 @@ a {
 .iconfont, a{
   font-size: 30px;
   color:white;
-  padding: 10px;
+  padding-top: 20px;
 }
