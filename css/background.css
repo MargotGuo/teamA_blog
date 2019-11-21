@@ -1,11 +1,15 @@
 .background {
-    background-image: url("img/background-filter.jpg");
-    width: 450px;
-    height: 100%;
-    display: block;
-    overflow: hidden;
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-size:cover
-    }
+  /*content*/
+  background-image: url("img/background-filter.jpg");
+  /*size*/
+  width: 40vw;
+  height: 100vh;
+  background-size:cover;
+  /*arrangement*/
+  display: block;
+  overflow: hidden;
+  /*position*/
+  position: fixed;
+  left: 0;
+  top: 0;
+}
