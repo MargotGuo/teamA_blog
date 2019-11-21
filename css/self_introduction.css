@@ -1,17 +1,24 @@
- .avatar{
-               margin-top: 5%;
-               width: 100px;
-               height: 100px;
-               border-radius: 100px;
-           }
- .name{
-               font-size: 20px;
-               color: white;
-               padding-top: 4%;
-           }
-.self_introduction{
-               font-size: 18px;
-               color:white;
-               padding-top: 4%;
-           }
-        
+.team-intro {
+  text-align: center;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+}
+.avatar {
+  margin-top: 5vmin;
+  width: 15vmin;
+  height: 15vmin;
+  border-radius: 15vmin;
+}
+.name {
+  font-size: 5vmin;
+  color: white;
+  padding-top: 2vmin;
+}
+.self_introduction {
+  font-size: 3vmin;
+  color: white;
+  padding-top: 2vmin;
+}
+.profile-background {
+  background-image: url("./img/self_introduction_background.jpg");
+}
