@@ -1,0 +1,29 @@
+.left-page {
+  background-image: url("img/background-filter.jpg");
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.team-intro {
+  text-align: center;
+  padding: 50px;
+}
+.icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 200px;
+  padding: 50px;
+  margin-left: 60px;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+}
+.iconfont, a{
+  font-size: 30px;
+  color:white;
+  padding-top: 20px;
+}
