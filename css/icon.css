@@ -1,3 +1,4 @@
+
 .left-page {
   background-image: url("img/background-filter.jpg");
   width: 40%;
@@ -26,4 +27,7 @@ a {
   font-size: 20px;
   color:white;
   padding-top: 30px;
+}
+.blog-list {
+  width: 500px; 
 }
