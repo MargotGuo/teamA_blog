@@ -1,0 +1,9 @@
+div {
+    width: 450px;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    }
+img {
+    height: 100%;
+}
