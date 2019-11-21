@@ -1,0 +1,17 @@
+ .avatar{
+               margin-top: 5%;
+               width: 100px;
+               height: 100px;
+               border-radius: 100px;
+           }
+ .name{
+               font-size: 20px;
+               color: white;
+               padding-top: 4%;
+           }
+.self_introduction{
+               font-size: 18px;
+               color:white;
+               padding-top: 4%;
+           }
+        
