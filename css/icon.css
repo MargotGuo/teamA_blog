@@ -11,7 +11,7 @@
 .icon-link {
   text-decoration: none;
 }
-.iconfont, a {
+.iconfont, .icon-link {
   font-size: 4vmin;
   color: white;
   padding-top: 5vmin;
