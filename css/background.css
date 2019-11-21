@@ -1,9 +1,11 @@
-div {
+.background {
+    background-image: url("img/background-filter.jpg");
     width: 450px;
     height: 100%;
     display: block;
     overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-size:cover
     }
-img {
-    height: 100%;
-}
