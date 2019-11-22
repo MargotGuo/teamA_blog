@@ -1,46 +1,19 @@
-
-.team-intro {
-  text-align: center;
-  padding: 50px;
-}
-.icons {
+.sidebar-icons {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 200px;
-  padding: 50px;
-  margin-left: 40px;
+  height: 30vmin;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+  margin-left: 10vmin;
   text-align: left;
 }
-a {
+.icon-link {
   text-decoration: none;
 }
-.iconfont, a{
+.iconfont, 
+.icon-link{
   font-size: 20px;
   color:white;
   padding-top: 30px;
-}
-.blog-content {
-  position: absolute;
-  left: 30%;
-  top: 0;
-  padding: 10px;
-  width: 65%
-}
-.bloglist-img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-}
-.blog-list {
-  width: 50%;
-  margin-left: 15px;
-  border: 1px solid;
-}
-li {
-  padding: 20px 0;
-  list-style-type: none;
-  border-bottom: 2px solid rgb(232, 234, 237);
-  display: flex;
-  flex-direction: row;
 }

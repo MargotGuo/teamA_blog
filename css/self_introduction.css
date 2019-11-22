@@ -1,17 +1,21 @@
- .avatar{
-               margin-top: 5%;
-               width: 100px;
-               height: 100px;
-               border-radius: 100px;
-           }
- .name{
-               font-size: 20px;
-               color: white;
-               padding-top: 4%;
-           }
-.self_introduction{
-               font-size: 18px;
-               color:white;
-               padding-top: 4%;
-           }
-        
+.team-intro {
+  text-align: center;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+}
+.avatar {
+  margin-top: 8vmin;
+  width: 15vmin;
+  height: 15vmin;
+  border-radius: 15vmin;
+}
+.name {
+  font-size: 3vmin;
+  color: white;
+  padding-top: 1vmin;
+}
+.self_introduction {
+  font-size: 2vmin;
+  color: white;
+  padding-top: 2vmin;
+}
