@@ -1,12 +1,4 @@
 
-.left-page {
-  background-image: url("img/background-filter.jpg");
-  width: 40%;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-}
 .team-intro {
   text-align: center;
   padding: 50px;
@@ -28,6 +20,27 @@ a {
   color:white;
   padding-top: 30px;
 }
+.blog-content {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  padding: 10px;
+  width: 65%
+}
+.bloglist-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
 .blog-list {
-  width: 500px; 
+  width: 50%;
+  margin-left: 15px;
+  border: 1px solid;
+}
+li {
+  padding: 20px 0;
+  list-style-type: none;
+  border-bottom: 2px solid rgb(232, 234, 237);
+  display: flex;
+  flex-direction: row;
 }

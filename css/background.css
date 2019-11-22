@@ -1,10 +1,9 @@
 .background {
     background-image: url("img/background-filter.jpg");
-    width: 450px;
+    width: 30%;
     height: 100%;
-    display: inline-block;
     position: fixed;
     left: 0;
     top: 0;
-    background-size:cover
+    background-size:cover;
     }
