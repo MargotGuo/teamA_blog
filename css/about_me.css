@@ -1,0 +1,59 @@
+.portrait {
+    text-align: center; 
+    width: 450px;
+    height: 450px;
+    background: white;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+ .avatar-space {
+     padding-top: 4%;
+ }
+ .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+i.icon-cuowu {
+    margin: auto;
+    position: relative;
+    top: 10px;
+    left: 200px;
+    right: 0;
+    bottom: 0; 
+    text-decoration: none;
+}
+
+.name {
+    padding-top: 7%;
+    font-weight: bold;
+    color: black;
+}
+
+.self-introduction {
+    margin: 7%;
+    font-family: sans-serif;
+}
+
+div.icon-career {
+    font-size: 30px;
+    padding-left: 1px;
+}
+div.icon-adress {
+    font-size: 25px;
+    color: black;
+}
+
+.description {
+    padding-top: 2%;
+}
+
+.close-icon {
+    text-decoration: none;
+}
