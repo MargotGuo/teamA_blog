@@ -2,17 +2,16 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 30vmin;
-  padding-left: 5vmin;
-  padding-right: 5vmin;
-  margin-left: 10vmin;
-  text-align: left;
+  justify-content: flex-start;
+  height: 40%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .icon-link {
   text-decoration: none;
 }
 .iconfont, .icon-link {
-  font-size: 4vmin;
+  font-size: 2vmin;
   color: white;
-  padding-top: 5vmin;
+  padding-top: 15%;
 }
