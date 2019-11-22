@@ -48,12 +48,18 @@ div.icon-career {
 div.icon-adress {
     font-size: 25px;
     color: black;
+    padding-left: 39%;
 }
 
 .description {
     padding-top: 2%;
+    padding-left: 2%;
 }
 
 .close-icon {
     text-decoration: none;
+}
+
+.adress {
+    padding-left: 8%;
 }
