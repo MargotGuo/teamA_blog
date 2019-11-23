@@ -2,10 +2,21 @@
   position: fixed;
   left: 0;
   top: 0;
-  width: 480px; /*特意用px固定，不随窗口改变*/
+  width: 480px;
   height: 100vh;
-  background-image: url("img/background-filter.jpg");
+  overflow: hidden;
+  align-items: center;
+}
+.filter {
+  position: absolute;
+  z-index: -1;
+  left: -1rem;
+  top: -1rem;
+  width: 110%;
+  height: 110%;
   background-size:cover;
+  background-image: url("img/background.jpg");
+  filter: blur(4px);
 }
 .team-intro {
   padding-left: 50px;
