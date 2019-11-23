@@ -12,8 +12,8 @@
   z-index: -1;
   left: -1rem;
   top: -1rem;
-  width: 110%;
-  height: 110%;
+  width: 120%;
+  height: 120%;
   background-size:cover;
   background-image: url("img/background.jpg");
   filter: blur(4px);
