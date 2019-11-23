@@ -2,8 +2,8 @@
   position: fixed;
   left: 0;
   top: 0;
-  width: 30%;
-  height: 100%;
+  width: 480px;
+  height: 100vh;
   overflow: hidden;
   align-items: center;
 }
@@ -19,15 +19,15 @@
   filter: blur(4px);
 }
 .team-intro {
-  padding-left: 5vmin;
-  padding-right: 5vmin;
+  padding-left: 50px;
+  padding-right: 50px;
   text-align: center;
 }
 .avatar {
-  margin-top: 8vmin;
-  width: 15vmin;
-  height: 15vmin;
-  border-radius: 15vmin;
+  margin-top: 70px;
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
 }
 .name {
   padding-top: 1vmin;
@@ -43,23 +43,24 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 30vmin;
-  padding-left: 5vmin;
-  padding-right: 5vmin;
-  margin-left: 10vmin;
+  height: 200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 70px;
   text-align: left;
-}
-.icon-link {
-  text-decoration: none;
 }
 .iconfont, 
 .icon-link{
   padding-top: 30px;
   font-size: 20px;
   color:white;
+  text-decoration: none;
+}
+i.iconfont {
+  font-size: 25px;
 }
 .right-page {
-  margin-left: 30%;
+  margin-left: 480px;
   margin-right: 2%;
 }
 .headline {
@@ -115,4 +116,29 @@ li {
   flex-direction: row;
   border-bottom: 2px solid rgb(232, 234, 237);
   list-style-type: none;
+}
+@media screen and (max-width: 1200px) {
+  .background {
+    width: 100px;
+  }
+  .right-page {
+    margin-left: 100px;
+  }
+  .name,
+  .self_introduction,
+  .icon-text {
+    display: none;
+  }
+  .sidebar-icons {
+    height: 500px;
+    margin: 0;
+    text-align: center;
+  }
+  .team-intro {
+    padding: 0;
+  }
+  .avatar {
+    width: 50px;
+    height: 50px;
+  }
 }
