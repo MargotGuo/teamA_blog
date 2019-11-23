@@ -1,0 +1,56 @@
+body {
+  color: rgb(66, 227, 245);
+  background-color: black;
+}
+header {
+  padding: 30px;
+  text-align: center;
+}
+.main-structure {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 1500px;
+  margin: auto;
+}
+article {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+div {
+  width: 50%;
+  height: 100%;
+}
+#endMark {
+  margin: auto;
+}
+h2 {
+  margin-top: 0;
+}
+h3 {
+  margin-top: 0;
+  padding-top: 5px;
+  width: 105px;
+  background: linear-gradient(to right, rgb(66, 227, 245), blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+article:nth-child(odd) div:first-child h3{
+  float: right;
+  text-align: end;
+}
+article:nth-child(even) div:first-child {
+  text-align: left;
+}
+article:nth-child(even) div:nth-last-child(1) {
+  text-align: end;
+}
+
+.event-text {
+  padding-top: 0;
+  font-size: 20px;
+  color: rgb(210, 214, 214);
+}
