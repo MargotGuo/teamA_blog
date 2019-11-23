@@ -3,9 +3,20 @@
   left: 0;
   top: 0;
   width: 30%;
-  height: 100vh;
-  background-image: url("img/background-filter.jpg");
+  height: 100%;
+  overflow: hidden;
+  align-items: center;
+}
+.filter {
+  position: absolute;
+  z-index: -1;
+  left: -1rem;
+  top: -1rem;
+  width: 110%;
+  height: 110%;
   background-size:cover;
+  background-image: url("img/background.jpg");
+  filter: blur(4px);
 }
 .team-intro {
   padding-left: 5vmin;
