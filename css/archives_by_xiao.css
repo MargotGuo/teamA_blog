@@ -3,13 +3,15 @@ body {
   background-color: black;
 }
 header {
-  padding: 30px;
+  padding-top: 30px;
+  margin: auto;
+  width: 1200px;
   text-align: center;
 }
 .main-structure {
   display: flex;
   flex-wrap: wrap-reverse;
-  width: 1500px;
+  width: 1200px;
   margin: auto;
 }
 article {
@@ -22,6 +24,7 @@ div {
   height: 100%;
 }
 #endMark {
+  padding-top: 30px;
   margin: auto;
 }
 h2 {
